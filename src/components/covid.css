@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #272750e0;
+}
+
+h2,
+h1 {
+    color: white;
+    text-align: center;
+    margin: 1rem 0rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+ul {
+    display: flex;
+    padding: 10rem;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.card {
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+
+.card__name {
+    background: red
+}
+
+.card__total {
+    background: green
+}
